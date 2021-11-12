@@ -437,7 +437,7 @@ img {
 
 /* FOOTER */
 .sitefooter {
-  padding-bottom: 135px;
+  padding-bottom: 85px;
 }
 
 .footer-box {
@@ -507,4 +507,73 @@ img {
 
 .footer-icon-link:active {
   opacity: 0.6;
+}
+
+/* ABOUT US STYLE*/
+.about {
+  padding-bottom: 169px;
+}
+
+.about-wrapper {
+  padding: 137px 750px 137px 85px;
+  background-image: url("../img/about-us-img/about-header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-wrap {
+  width: 445px;
+}
+
+.about-wrap-header {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+.about-wrap-desc {
+  margin: 0;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+
+/* COMMITMENT */
+.commit-box {
+  display: flex;
+  align-items: center;
+}
+
+.commit-left-img {
+  width: 445px;
+  height: 520px;
+  border-radius: 8px;
+}
+
+.commit-right {
+  width: 540px;
+  margin-left: 125px;
+}
+
+.commit-right-title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+
+.commit-right-desc {
+  margin: 0;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(51, 61, 75, 0.8);
 }
