@@ -46,9 +46,16 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: "Fraunces", sans-serif;
   background: #FEFCF7;
 }
@@ -139,6 +146,12 @@ img {
 
 .nav-link:active {
   opacity: 0.6;
+}
+
+/* MAIN */
+
+main {
+  flex-grow: 1;
 }
 
 /* GREAT */
@@ -662,7 +675,7 @@ img {
   width: 285px;
 }
 
-.services-about-item + .services-about-item {
+.services-about-item+.services-about-item {
   margin-left: 95px;
 }
 
@@ -689,3 +702,112 @@ img {
   color: #333D4B;
 }
 
+/* CREATE */
+
+.create {
+  padding-bottom: 177px;
+}
+
+.create-box {
+  padding: 134px 709px 134px 85px;
+  background-image: url("../img/create-img-bgr.jpg");
+  background: no-repeat cover;
+}
+
+.create-box-title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.create-box-desc {
+  margin: 0;
+  width: 445px;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+/* PREPARATION */
+
+.preparation {
+  padding-bottom: 159px;
+}
+
+.preparation-box {
+  padding: 91px 150px 107px 85px;
+  background: #2C343E;
+  border-radius: 10px;
+}
+
+.preparation-box-line {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 791px;
+  margin-bottom: 67px;
+}
+
+.preparation-box-line::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 760px;
+  height: 2px;
+  z-index: 1;
+  background-color: #FDD6BA;
+}
+
+.preparation-oval {
+  width: 31px;
+  height: 31px;
+  z-index: 3;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+/* PEREPARATION-LIST */
+
+.preparation-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.preparation-item {
+  width: 285px;
+}
+
+.preparation-item + .preparation-item {
+    margin-left: 95px;
+}
+.preparation-img {
+  margin-bottom: 38px;
+}
+
+.preparation-item-title {
+  margin: 0;
+  margin-bottom: 42px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+
+.preparation-item-desc {
+  margin: 0;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
