@@ -1,8 +1,8 @@
 /* FONTS */
+
 @font-face {
   font-family: "Barlow";
-  src: url("Barlow-Bold.woff2") format("woff2"),
-    url("Barlow-Bold.woff") format("woff");
+  src: url("Barlow-Bold.woff2") format("woff2"), url("Barlow-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -10,8 +10,7 @@
 
 @font-face {
   font-family: "Barlow";
-  src: url("Barlow-Medium.woff2") format("woff2"),
-    url("Barlow-Medium.woff") format("woff");
+  src: url("Barlow-Medium.woff2") format("woff2"), url("Barlow-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -19,8 +18,7 @@
 
 @font-face {
   font-family: "Barlow";
-  src: url("Barlow-SemiBold.woff2") format("woff2"),
-    url("Barlow-SemiBold.woff") format("woff");
+  src: url("Barlow-SemiBold.woff2") format("woff2"), url("Barlow-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -28,8 +26,7 @@
 
 @font-face {
   font-family: "Barlow";
-  src: url("Barlow-Regular.woff2") format("woff2"),
-    url("Barlow-Regular.woff") format("woff");
+  src: url("Barlow-Regular.woff2") format("woff2"), url("Barlow-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,17 +34,15 @@
 
 @font-face {
   font-family: "Fraunces";
-  src: url("Fraunces-Black.woff2") format("woff2"),
-    url("Fraunces-Black.woff") format("woff");
+  src: url("Fraunces-Black.woff2") format("woff2"), url("Fraunces-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 /* GENERALS */
-*,
-*::before,
-*::after {
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -98,6 +93,7 @@ img {
 }
 
 /* HEADER */
+
 .site-header {
   padding: 45px 0;
 }
@@ -121,7 +117,7 @@ img {
   list-style: none;
 }
 
-.nav-item + .nav-item {
+.nav-item+.nav-item {
   margin-left: 33px;
 }
 
@@ -145,6 +141,7 @@ img {
 }
 
 /* GREAT */
+
 .great {
   padding-bottom: 136px;
 }
@@ -204,6 +201,7 @@ img {
 }
 
 /* COLLECTION */
+
 .collection {
   padding-bottom: 200px;
 }
@@ -257,6 +255,7 @@ img {
 }
 
 /* SERVICES */
+
 .services {
   padding-bottom: 351px;
 }
@@ -353,6 +352,7 @@ img {
 }
 
 /* WORKS */
+
 .works {
   padding-bottom: 189px;
 }
@@ -393,7 +393,7 @@ img {
   border: 2px solid #0e8784;
 }
 
-.oval + .oval {
+.oval+.oval {
   margin-left: 349px;
 }
 
@@ -437,6 +437,7 @@ img {
 }
 
 /* FOOTER */
+
 .sitefooter {
   padding-bottom: 85px;
 }
@@ -463,7 +464,7 @@ img {
   list-style: none;
 }
 
-.footer-item + .footer-item {
+.footer-item+.footer-item {
   margin-left: 33px;
 }
 
@@ -494,7 +495,7 @@ img {
   list-style: none;
 }
 
-.footer-icon-item + .footer-icon-item {
+.footer-icon-item+.footer-icon-item {
   margin-left: 24px;
 }
 
@@ -511,13 +512,14 @@ img {
 }
 
 /* ABOUT US STYLE*/
+
 .about {
   padding-bottom: 169px;
 }
 
 .about-wrapper {
   padding: 137px 750px 137px 85px;
-  background-image: url("../img/about-us-img/about-header-img.jpg");
+  background-image: url("../img/about-header-img.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -545,6 +547,11 @@ img {
 }
 
 /* COMMITMENT */
+
+.commitment {
+  padding-bottom: 256px;
+}
+
 .commit-box {
   display: flex;
   align-items: center;
@@ -577,4 +584,51 @@ img {
   font-size: 16px;
   line-height: 26px;
   color: rgba(51, 61, 75, 0.8);
+}
+
+/* QUALITY */
+
+.quality {
+  position: relative;
+  padding-bottom: 168px;
+}
+
+.quality-box {
+  display: flex;
+  padding: 88px 0px 176px 85px;
+  background: #2C343E;
+  border-radius: 10px;
+}
+
+.quality-box-left {
+  width: 540px;
+}
+
+.quality-box-left-title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.quality-box-left-desc {
+  margin: 0;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality-uncom-img {
+  position: absolute;
+  top: -88px;
+  width: 445px;
+  height: 474px;
+  margin-left: 125px;
+  border-radius: 8px;
 }
