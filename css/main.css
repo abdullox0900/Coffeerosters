@@ -711,7 +711,8 @@ main {
 .create-box {
   padding: 134px 709px 134px 85px;
   background-image: url("../img/create-img-bgr.jpg");
-  background: no-repeat cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .create-box-title {
@@ -786,9 +787,10 @@ main {
   width: 285px;
 }
 
-.preparation-item + .preparation-item {
-    margin-left: 95px;
+.preparation-item+.preparation-item {
+  margin-left: 95px;
 }
+
 .preparation-img {
   margin-bottom: 38px;
 }
@@ -810,4 +812,237 @@ main {
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
+}
+
+/* CREATE-MENU */
+
+.create-menu {
+  padding-bottom: 168px;
+}
+
+.create-menu-box {
+  display: flex;
+}
+
+.create-menu-left-list {
+  margin: 0;
+  padding: 0;
+  width: 255px;
+  list-style: none;
+}
+
+.create-menu-left-item {
+  display: flex;
+  padding: 24px 0px;
+  width: 255px;
+  border-bottom: 1px solid #ADB0B2;
+}
+
+.create-menu-left-item:nth-child(1) {
+  padding-top: 0;
+}
+
+.create-menu-left-item:last-child {
+  border-bottom: none;
+}
+
+.create-menu-left-desc {
+  margin: 0;
+  margin-right: 25px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ADB0B2;
+}
+
+.create-menu-left-title-link {
+  text-decoration: none;
+}
+
+.create-menu-left-title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ADB0B2;
+  transition: 0.4s;
+}
+
+.create-menu-left-title:hover {
+  color: #333D4B;
+}
+
+.create-menu-left-title:active {
+  color: #0E8784;
+}
+
+.create-menu-desc-active {
+  color: #83888F;
+}
+
+.create-menu-title-activ {
+  color: #333D4B;
+}
+
+/* CREATE-MENU-RIGHT-LIST */
+
+.create-menu-right-list {
+  margin: 0;
+  margin-left: 125px;
+  padding: 0;
+  list-style: none;
+}
+
+.create-menu-right-item {
+  width: 730px;
+  margin-bottom: 88px;
+}
+
+.create-menu-right-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.create-menu-right-item-title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.create-menu-right-button {
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.create-menu-right-button:hover {
+  opacity: 0.8;
+}
+
+.create-menu-right-button:active {
+  opacity: 0.6;
+}
+
+/* CREATE-MENU-RIGHT-ITEM-LIST */
+
+.create-menu-right-item-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.create-menu-right-item-card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 28px 84px 28px;
+  width: 228px;
+  cursor: pointer;
+  color: #333D4B;
+  background: #F4F1EB;
+  border-radius: 8px;
+  transition: 0.6s;
+}
+
+.create-menu-right-item-card:hover {
+  background: #FDD6BA;
+}
+
+.create-menu-right-item-card:active {
+  color: #fff;
+  background: #0E8784;
+}
+
+.create-menu-right-item-card+.create-menu-right-item-card {
+  margin-left: 23px;
+}
+
+.active-card {
+  color: #fff;
+  background: #0E8784;
+}
+
+.active-card:hover {
+  background-color: #0E8784;
+}
+
+.create-menu-right-card-title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.create-menu-right-card-desc {
+  margin: 0;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.right-card-active {
+  padding: 32px 25px 84px 28px;
+}
+
+/* CREATE-MENU-ORDER-SUMMARY */
+
+.create-menu-order-summary {
+  margin-bottom: 40px;
+  padding: 27px 64px 27px 64px;
+  background: #2C343E;
+}
+
+.order-summary-title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.order-summary-subtitle {
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.order-color {
+  color: #0E8784;
+}
+
+.create-menu-right-btn {
+  display: flex;
+  margin-left: auto;
+  padding: 15px 35px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  background: #0E8784;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #FEFCF7;
+  transition: 0.4s;
+}
+
+.create-menu-right-btn:hover {
+  color: #fff;
+  background: #66D2CF;
+}
+
+.create-menu-right-btn:active {
+  background: #E2DEDB;
 }
