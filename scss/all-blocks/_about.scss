@@ -1,0 +1,23 @@
+.about {
+    padding-bottom: 168px;
+    .about-box {
+        padding: 137px 0px 137px 85px;
+        border-radius: 10px;
+        background: url("../img/about-header-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .about-box__title {
+            margin: 0;
+            margin-bottom: 24px;
+            font-size: 40px;
+            line-height: 48px;
+            color: $bone;
+        }
+
+        .about-box__text {
+            width: 445px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}

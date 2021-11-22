@@ -1,0 +1,30 @@
+.commit {
+    padding-bottom: 256px;
+    .commit-box1 {
+        display: flex;
+        align-items: center;
+
+        .commit__img {
+            width: 445px;
+            height: 520px;
+            border-radius: 8px;
+        }
+
+        .commit-wrap {
+            width: 538px;
+            margin-left: 125px;
+            .commit-wrap__header {
+                margin-bottom: 32px;
+                font-size: 40px;
+                line-height: 48px;
+                color: $darkgre;
+            }
+
+            .commit-wrap__text {
+                font-size: 16px;
+                line-height: 26px;
+                color: $darkgre;
+            }
+        }
+    }
+}

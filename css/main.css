@@ -804,6 +804,69 @@ img {
   margin-top: 64px;
 }
 
+.about {
+  padding-bottom: 168px;
+}
+
+.about .about-box {
+  padding: 137px 0px 137px 85px;
+  border-radius: 10px;
+  background: url("../img/about-header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .about-box .about-box__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+.about .about-box .about-box__text {
+  width: 445px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.commit {
+  padding-bottom: 256px;
+}
+
+.commit .commit-box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commit .commit-box1 .commit__img {
+  width: 445px;
+  height: 520px;
+  border-radius: 8px;
+}
+
+.commit .commit-box1 .commit-wrap {
+  width: 538px;
+  margin-left: 125px;
+}
+
+.commit .commit-box1 .commit-wrap .commit-wrap__header {
+  margin-bottom: 32px;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+
+.commit .commit-box1 .commit-wrap .commit-wrap__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
 .site-footer {
   background-color: #2c343e;
 }
