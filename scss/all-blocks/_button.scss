@@ -5,7 +5,17 @@
     line-height: 25px;
     text-align: center;
     color: $bone;
+    border-radius: 6px;
     border: none;
     outline: none;
     background-color: $emarald;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: $emaralopa;
+}
+
+.button:active {
+    background-color: $emaralactiv;
 }
