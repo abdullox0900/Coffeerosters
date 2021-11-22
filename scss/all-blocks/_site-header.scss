@@ -1,0 +1,23 @@
+.site-header {
+    .site-header__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 43px 0;
+    }
+
+    .site-header__logo--link {
+        display: block;
+        width: 236px;
+        height: 26px;
+        transition: 0.5s;
+    }
+
+    .site-header__logo--link:hover {
+        opacity: 0.9;
+    }
+
+    .site-header__logo--link:active {
+        opacity: 0.8;
+    }
+}
