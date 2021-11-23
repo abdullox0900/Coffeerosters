@@ -1,0 +1,33 @@
+.unco {
+    padding-bottom: 168px;
+    .unco-wrap {
+        display: flex;
+        position: relative;
+        border-radius: 10px;
+        background-color: $bcgrauns;
+    }
+    .unco-wrap-box {
+        padding: 88px 0px 176px 85px;
+
+        .unco-wrap-box__header {
+            margin-bottom: 32px;
+            font-size: 40px;
+            line-height: 48px;
+            color: $bone;
+        }
+
+        .unco-wrap-box__text {
+            width: 540px;
+            font-size: 16px;
+            line-height: 26px;
+            color: $bone;
+        }
+    }
+
+    .unco-wrap__img {
+        position: absolute;
+        right: 85px;
+        bottom: 88px;
+        border-radius: 8px;
+    }
+}

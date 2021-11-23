@@ -450,6 +450,12 @@ img {
   padding: 0 20px;
 }
 
+.container-head {
+  width: 1085px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .button {
   padding: 15px 31px;
   font-weight: 900;
@@ -862,6 +868,87 @@ img {
 }
 
 .commit .commit-box1 .commit-wrap .commit-wrap__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+.unco {
+  padding-bottom: 168px;
+}
+
+.unco .unco-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  background-color: #2c343e;
+}
+
+.unco .unco-wrap-box {
+  padding: 88px 0px 176px 85px;
+}
+
+.unco .unco-wrap-box .unco-wrap-box__header {
+  margin-bottom: 32px;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+.unco .unco-wrap-box .unco-wrap-box__text {
+  width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+
+.unco .unco-wrap__img {
+  position: absolute;
+  right: 85px;
+  bottom: 88px;
+  border-radius: 8px;
+}
+
+.head {
+  padding-bottom: 168px;
+}
+
+.head .head-box .head-box__header {
+  margin-bottom: 72px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.head .head-box .head-box__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -47px;
+  padding: 0;
+  list-style: none;
+}
+
+.head .head-box .head-box__item {
+  width: 285px;
+  margin: 47px;
+}
+
+.head .head-box .head-box__img {
+  margin-bottom: 45px;
+}
+
+.head .head-box .head-box-item__header {
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.head .head-box .head-box-item__text {
+  margin-bottom: 5px;
   font-size: 16px;
   line-height: 26px;
   color: #333d4b;

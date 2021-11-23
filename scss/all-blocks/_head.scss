@@ -1,0 +1,41 @@
+.head {
+    padding-bottom: 168px;
+    .head-box {
+        .head-box__header {
+            margin-bottom: 72px;
+            font-size: 24px;
+            line-height: 32px;
+            color: $greys;
+        }
+
+        .head-box__list {
+            display: flex;
+            margin: -47px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .head-box__item {
+            width: 285px;
+            margin: 47px;
+        }
+
+        .head-box__img {
+            margin-bottom: 45px;
+        }
+
+        .head-box-item__header {
+            margin-bottom: 24px;
+            font-size: 32px;
+            line-height: 36px;
+            color: $darkgre;
+        }
+
+        .head-box-item__text {
+            margin-bottom: 5px;
+            font-size: 16px;
+            line-height: 26px;
+            color: $darkgre;
+        }
+    }
+}
