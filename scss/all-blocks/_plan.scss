@@ -1,0 +1,36 @@
+.plan {
+    padding-bottom: 168px;
+    .plan__box {
+        padding: 134px 709px 134px 84px;
+        border-radius: 10px;
+        background-image: url("../img/Bitmap.jpg");
+        background-repeat: no-repeat;
+        background-size: 1280px 450px;
+    }
+
+    .plan__header {
+        margin: 0;
+        margin-bottom: 32px;
+        font-size: 72px;
+        line-height: 72px;
+        color: $bone;
+    }
+
+    .plan__text {
+        width: 445px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .plan__box {
+        background-image: url("../img/Bitmap@2x.jpg");
+    }
+}

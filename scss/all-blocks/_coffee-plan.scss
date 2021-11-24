@@ -1,0 +1,168 @@
+.coffee-plan {
+    padding-bottom: 168px;
+    .coffee-plan__box {
+        display: flex;
+    }
+
+    .coffee-plan__left-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .coffee-plan__left-item {
+        width: 255px;
+        padding: 24px 0px;
+        border-bottom: 1px solid $greys;
+    }
+
+    .coffee-plan__left-item:nth-child(1) {
+        padding-top: 0;
+    }
+
+    .coffee-plan__left-item:last-child {
+        border-bottom: none;
+    }
+
+    .coffee-plan__left-link {
+        display: flex;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    .coffee-plan__left-link:hover {
+        opacity: 0.7;
+    }
+
+    .coffee-plan__left-link:active {
+        opacity: 0.4;
+    }
+
+    .coffee-plan__left-namber {
+        font-size: 24px;
+        line-height: 32px;
+        color: $greys;
+    }
+
+    .coffee-plan__left-text {
+        margin-left: 28px;
+        font-size: 24px;
+        line-height: 32px;
+        cursor: pointer;
+        color: $greys;
+        transition: 0.6s;
+    }
+
+    .coffee-plan__right-form {
+        margin-left: 125px;
+        width: 730px;
+    }
+
+    .coffee-plan__right-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .coffee-plan__right-item {
+        padding-bottom: 88px;
+    }
+
+    .coffee-plan__right-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 56px;
+        font-size: 40px;
+        line-height: 48px;
+        color: $greys;
+    }
+
+    .coffee-plan__right-btn {
+        border: none;
+        background-color: transparent;
+    }
+
+    .coffee-plan__right-btn:hover {
+        opacity: 0.8;
+    }
+
+    .coffee-plan__right-btn:active {
+        opacity: 0.6;
+    }
+
+    .coffee-plan__right-box {
+        display: flex;
+    }
+
+    .coffee-plan__right-label {
+        display: block;
+    }
+
+    .coffee-plan__right-label + .coffee-plan__right-label {
+        margin-left: 24px;
+    }
+
+    .coffe-plan__right-card {
+        display: inline-block;
+        padding: 32px 28px 84px 28px;
+        color: $darkgre;
+        width: 228px;
+        height: 250px;
+        background: $neo;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+
+    .coffe-plan__right-card:hover {
+        background: $hover;
+    }
+
+    .coffee-plan__right-card--header {
+        font-weight: 900;
+        margin-bottom: 24px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .coffee-plan__right-card--text {
+        font-family: Barlow;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    input:checked + .coffe-plan__right-card {
+        background-color: $emarald;
+        color: #fff;
+    }
+}
+
+.coffee-plan__bottom {
+    padding: 27px 64px 27px 64px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: $bcgrauns;
+}
+
+.coffee-plan__bottom-header {
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.coffee-plan__bottom-text {
+    margin: 0;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.coffee-plan__bottom-col {
+    color: $emarald;
+}
