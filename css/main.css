@@ -439,19 +439,19 @@ img {
 }
 
 .container {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .container-collection {
-  width: 1151px;
+  max-width: 1151px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .container-head {
-  width: 1085px;
+  max-width: 1085px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -573,7 +573,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 589px) {
   .site-nav {
     display: none;
   }
