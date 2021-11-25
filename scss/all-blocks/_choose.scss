@@ -44,10 +44,20 @@
         border-radius: 8px;
     }
 
+    .choose__item:last-child {
+        padding: 83px 48px 48px 48px;
+    }
+
     .choose__item--img {
         width: 71px;
         height: 72px;
         margin-bottom: 56px;
+    }
+
+    .item-img--activ {
+        width: 72px;
+        height: 50px;
+        margin-bottom: 67px;
     }
 
     .choose__item--header {

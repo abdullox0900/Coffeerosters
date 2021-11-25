@@ -3,7 +3,7 @@
     .about-box {
         padding: 137px 0px 137px 85px;
         border-radius: 10px;
-        background: url("../img/about-header-img.jpg");
+        background: url("../img/about-bgr-img.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         .about-box__title {
@@ -19,5 +19,16 @@
             font-size: 16px;
             line-height: 26px;
         }
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .about-box {
+        background-image: url("../../img/about-bgr-img@2x.jpg");
     }
 }

@@ -1,3 +1,34 @@
 .site-main {
     flex-grow: 1;
 }
+
+.gret-hero {
+    padding-bottom: 136px;
+    .gret-hero__box {
+        padding: 117px 0px 116px 85px;
+        border-radius: 10px;
+        background-image: url("../../img/gret-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .site-title__gret {
+        margin-bottom: 32px;
+    }
+
+    .site-text__gret {
+        width: 445px;
+        margin-bottom: 36px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .gret-hero__box {
+        background-image: url("../../img/gret-img@2x.jpg");
+    }
+}

@@ -501,12 +501,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 43px 0;
 }
 
@@ -524,6 +524,10 @@ img {
 
 .site-header .site-header__logo--link:active {
   opacity: 0.8;
+}
+
+.site-nav {
+  margin-left: auto;
 }
 
 .site-nav .site-nav__list {
@@ -560,6 +564,24 @@ img {
   opacity: 0.6;
 }
 
+.site-nav .site-logo__link {
+  width: 236px;
+  height: 26px;
+}
+
+.btn-burger {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .site-nav {
+    display: none;
+  }
+  .btn-burger {
+    display: block;
+  }
+}
+
 .site-main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -573,7 +595,7 @@ img {
 .gret-hero .gret-hero__box {
   padding: 117px 0px 116px 85px;
   border-radius: 10px;
-  background-image: url("/img/Bitmap.jpg");
+  background-image: url("../../img/gret-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -585,6 +607,12 @@ img {
 .gret-hero .site-text__gret {
   width: 445px;
   margin-bottom: 36px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gret-hero__box {
+    background-image: url("../../img/gret-img@2x.jpg");
+  }
 }
 
 .collection-hero {
@@ -704,10 +732,20 @@ img {
   border-radius: 8px;
 }
 
+.choose .choose__item:last-child {
+  padding: 83px 48px 48px 48px;
+}
+
 .choose .choose__item--img {
   width: 71px;
   height: 72px;
   margin-bottom: 56px;
+}
+
+.choose .item-img--activ {
+  width: 72px;
+  height: 50px;
+  margin-bottom: 67px;
 }
 
 .choose .choose__item--header {
@@ -817,7 +855,7 @@ img {
 .about .about-box {
   padding: 137px 0px 137px 85px;
   border-radius: 10px;
-  background: url("../img/about-header-img.jpg");
+  background: url("../img/about-bgr-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -834,6 +872,12 @@ img {
   width: 445px;
   font-size: 16px;
   line-height: 26px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .about-box {
+    background-image: url("../../img/about-bgr-img@2x.jpg");
+  }
 }
 
 .commit {
