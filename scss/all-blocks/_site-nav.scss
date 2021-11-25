@@ -1,51 +1,5 @@
-.site-nav {
-    margin-left: auto;
-    .site-nav__list {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .site-nav__item + .site-nav__item {
-        margin-left: 33px;
-    }
-
-    .site-nav__link {
-        font-family: Barlow;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 15px;
-        letter-spacing: 0.923077px;
-        text-transform: uppercase;
-        color: $greys;
-        text-decoration: none;
-        transition: 0.5s;
-    }
-
-    .site-nav__link:hover {
-        color: #373a3f;
-    }
-
-    .site-nav__link:active {
-        opacity: 0.6;
-    }
-
-    .site-logo__link {
-        width: 236px;
-        height: 26px;
-    }
-}
-
-.btn-burger {
-    display: none;
-}
-
 @media screen and (max-width: 589px) {
-    .site-nav {
-        display: none;
-    }
-    .btn-burger {
-        display: block;
-    }
+}
+
+@media screen and (max-width: 375px) {
 }
