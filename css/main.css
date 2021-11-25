@@ -457,7 +457,26 @@ img {
   padding: 0 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 38px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+}
+
 .button {
+  max-width: 100%;
   padding: 15px 31px;
   font-weight: 900;
   font-size: 18px;
@@ -529,6 +548,7 @@ img {
   border: none;
   background-color: transparent;
   background-image: url("../../img/burger.svg");
+  background-repeat: no-repeat;
 }
 
 .header .logo__img:hover {
@@ -541,6 +561,7 @@ img {
 
 .header .header__nav {
   display: block;
+  white-space: nowrap;
 }
 
 .header .header__list {
@@ -592,7 +613,7 @@ img {
 @media screen and (max-width: 589px) {
   .header {
     position: relative;
-    padding: 32px 0px 41px 0px;
+    padding: 32px 0px 40px 0px;
   }
   .header .header__nav {
     display: none;
@@ -611,12 +632,12 @@ img {
     padding: 40px 83px 377px 83px;
     padding-bottom: 377px;
     position: absolute;
-    top: 100%;
+    top: 99%;
     left: 0px;
     -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
             transform: matrix(1, 0, 0, 1, 0, 0);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(55.94%, #fefcf7), to(rgba(254, 252, 247, 0.504981)));
-    background: linear-gradient(180deg, #fefcf7 55.94% 0%, rgba(254, 252, 247, 0.504981));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(54.8%, #fefcf7), to(rgba(254, 252, 247, 0.504981)));
+    background: linear-gradient(180deg, #fefcf7 54.8% 0%, rgba(254, 252, 247, 0.504981));
   }
   .header--open .header__list {
     -webkit-box-align: center;
@@ -629,7 +650,7 @@ img {
     white-space: nowrap;
   }
   .header--open .header__item {
-    margin-bottom: 32px;
+    margin-bottom: 26px;
   }
   .header--open .header__link {
     display: inline-block;
@@ -643,6 +664,7 @@ img {
   }
   .header--open .btn-burger {
     background-image: url("../../img/x.svg");
+    background-repeat: no-repeat;
   }
 }
 
@@ -664,20 +686,102 @@ img {
 }
 
 .gret-hero .gret-hero__box {
-  padding: 117px 0px 116px 85px;
+  padding: 117px 232px 116px 85px;
   border-radius: 10px;
   background-image: url("../../img/gret-img.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1280px 600px;
 }
 
 .gret-hero .site-title__gret {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   margin-bottom: 32px;
 }
 
 .gret-hero .site-text__gret {
-  width: 445px;
-  margin-bottom: 36px;
+  max-width: 430px;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 860px) {
+  .gret-hero .site-title__gret {
+    margin-bottom: 28px;
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .gret-hero .site-text__gret {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gret-hero .gret-hero__box {
+    padding: 104px 232px 103px 58px;
+    background-image: url("../../img/bitmap678px.jpg");
+    background-size: cover;
+  }
+  .gret-hero .site-title__gret {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .gret-hero .site-text__gret {
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .gret-hero .gret-hero__box {
+    padding: 100px 70px 100px 70px;
+    background-image: url("../../img/bitmap678px.jpg");
+    max-width: 100%;
+    text-align: center;
+  }
+  .gret-hero .site-title__gret {
+    margin-bottom: 24px;
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .gret-hero .site-text__gret {
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .gret-hero .gret-hero__box {
+    padding: 100px 40px 100px 40px;
+  }
+  .gret-hero .site-title__gret {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gret-hero .gret-hero__box {
+    padding: 100px 35px 100px 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gret-hero .gret-hero__box {
+    padding: 100px 24px 100px 24px;
+    background-image: url("../../img/bitmap2x-mobil.jpg");
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gret-hero .gret-hero__box {
+    padding: 100px 24px 100px 24px;
+    background-image: url("../../img/bitmap2x-mobil.jpg");
+  }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {

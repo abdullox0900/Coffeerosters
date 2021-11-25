@@ -5,20 +5,121 @@
 .gret-hero {
     padding-bottom: 136px;
     .gret-hero__box {
-        padding: 117px 0px 116px 85px;
+        padding: 117px 232px 116px 85px;
         border-radius: 10px;
         background-image: url("../../img/gret-img.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 1280px 600px;
     }
 
     .site-title__gret {
+        flex-shrink: 1;
         margin-bottom: 32px;
     }
 
     .site-text__gret {
-        width: 445px;
-        margin-bottom: 36px;
+        max-width: 430px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .gret-hero {
+        .site-title__gret {
+            margin-bottom: 28px;
+            font-size: 55px;
+            line-height: 55px;
+        }
+
+        .site-text__gret {
+            margin-bottom: 28px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gret-hero {
+        .gret-hero__box {
+            padding: 104px 232px 103px 58px;
+            background-image: url("../../img/bitmap678px.jpg");
+            background-size: cover;
+        }
+        .site-title__gret {
+            margin-bottom: 24px;
+            font-size: 48px;
+            line-height: 48px;
+        }
+
+        .site-text__gret {
+            margin-bottom: 40px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .gret-hero {
+        .gret-hero__box {
+            padding: 100px 70px 100px 70px;
+            background-image: url("../../img/bitmap678px.jpg");
+            max-width: 100%;
+            text-align: center;
+        }
+        .site-title__gret {
+            // min-width: 320px;
+            margin-bottom: 24px;
+            font-size: 44px;
+            line-height: 44px;
+        }
+
+        .site-text__gret {
+            margin-bottom: 40px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .gret-hero {
+        .gret-hero__box {
+            padding: 100px 40px 100px 40px;
+        }
+
+        .site-title__gret {
+            // max-width: 279px;
+            margin: 0 auto;
+            margin-bottom: 24px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gret-hero {
+        .gret-hero__box {
+            padding: 100px 35px 100px 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gret-hero {
+        .gret-hero__box {
+            padding: 100px 24px 100px 24px;
+            background-image: url("../../img/bitmap2x-mobil.jpg");
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .gret-hero {
+        .gret-hero__box {
+            padding: 100px 24px 100px 24px;
+            background-image: url("../../img/bitmap2x-mobil.jpg");
+        }
     }
 }
 

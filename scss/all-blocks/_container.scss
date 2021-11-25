@@ -17,19 +17,20 @@
     padding: 0 20px;
 }
 
-// @media screen and (max-width: 1320px) {
-//     .container {
-//         max-width: 970px;
-//     }
-// }
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 0 38px;
+    }
+}
 
-// @media screen and (max-width: 992px) {
-//     .container {
-//         max-width: 750px;
-//     }
-// }
-
-// @media screen and (max-width: 767px) {
-//     .container {
-//         max-width: none;
-//     }
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 0 24px;
+    }
+}
