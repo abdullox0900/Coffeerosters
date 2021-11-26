@@ -32,6 +32,12 @@
         margin-bottom: 71px;
     }
 
+    .collection-hero__box-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .collecttion-hero__title {
         margin-bottom: 24px;
         font-size: 24px;
@@ -44,5 +50,117 @@
         line-height: 26px;
         color: $darkgre;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .collection-hero {
+        // display: flex;
+        .colliction-hero__list {
+            margin: 0 auto;
+            max-width: 800px;
+            justify-content: space-evenly;
+        }
+
+        .collection-hero__item {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .collection-hero {
+        padding-bottom: 144px;
+
+        .collection-hero__box {
+            padding-top: 50px;
+        }
+
+        .colliction-hero__list {
+            flex-direction: column;
+        }
+        .collection-hero__item {
+            width: 573px;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .collection-hero__img {
+            margin-bottom: 0px;
+        }
+
+        .collection-hero__box-text {
+            max-width: 282px;
+            margin-left: 32px;
+            align-items: start;
+        }
+
+        .collecttion-hero__text {
+            text-align: left;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .collection-hero {
+        .colliction-hero__list {
+            align-items: center;
+        }
+        .collection-hero__item {
+            max-width: 282px;
+            flex-direction: column;
+        }
+
+        .collection-hero__img {
+            margin-bottom: 24px;
+        }
+
+        .collection-hero__box-text {
+            margin-left: 0px;
+            align-items: center;
+        }
+
+        .collecttion-hero__text {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .collection-hero {
+        .collection-hero__box {
+            padding-top: 80px;
+        }
+
+        .collection-hero__item {
+            max-width: 250px;
+        }
+
+        .collection-hero__img {
+            margin-bottom: 20px;
+        }
+
+        .collecttion-hero__title {
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+        .collection-hero__box-text {
+            margin-left: 0px;
+            align-items: center;
+        }
+
+        .collecttion-hero__text {
+            font-size: 14px;
+            line-height: 26px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .collection-hero {
+        .collection-hero__item {
+            max-width: 240px;
+        }
     }
 }
