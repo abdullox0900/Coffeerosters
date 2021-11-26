@@ -4,11 +4,17 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    margin: -47px;
 
     .works-list__item {
         width: 285px;
-        margin: 47px;
+    }
+
+    .works-list__item {
+        margin-right: 95px;
+    }
+
+    .works-list__item:last-child {
+        margin-right: 0;
     }
 
     .works-list__img {
@@ -32,4 +38,10 @@
     .works-box__button {
         margin-top: 64px;
     }
+}
+
+@media screen and (max-width: 1210px) {
+}
+
+@media screen and (max-width: 1075) {
 }

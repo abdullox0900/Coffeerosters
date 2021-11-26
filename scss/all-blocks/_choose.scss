@@ -266,6 +266,10 @@
             flex-direction: column;
         }
 
+        .choose__item:last-child {
+            padding: 65px 30px 48px 30px;
+        }
+
         .choose__item--img {
             margin-bottom: 47px;
         }
@@ -288,8 +292,6 @@
 
         .choose__item {
             width: 350px;
-            padding: 65px 33px 48px 33px;
-            flex-direction: column;
         }
 
         .choose__item--img {
@@ -344,6 +346,10 @@
             flex-direction: column;
         }
 
+        .choose__item:last-child {
+            padding: 72px 33px 51px 33px;
+        }
+
         .choose__item--img {
             margin-bottom: 56px;
         }
@@ -373,6 +379,10 @@
             width: 250px;
             padding: 75px 25px 55px 25px;
             flex-direction: column;
+        }
+
+        .choose__item:last-child {
+            padding: 75px 25px 55px 25px;
         }
 
         .choose__item--img {

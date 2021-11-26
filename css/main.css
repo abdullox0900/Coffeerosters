@@ -446,7 +446,15 @@ img {
 }
 
 .container-collection {
+  width: 100%;
   max-width: 1151px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.works-container {
+  width: 100%;
+  max-width: 1045px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -1299,6 +1307,9 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .choose .choose__item:last-child {
+    padding: 65px 30px 48px 30px;
+  }
   .choose .choose__item--img {
     margin-bottom: 47px;
   }
@@ -1316,11 +1327,6 @@ img {
   }
   .choose .choose__item {
     width: 350px;
-    padding: 65px 33px 48px 33px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .choose .choose__item--img {
     margin-bottom: 47px;
@@ -1368,6 +1374,9 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .choose .choose__item:last-child {
+    padding: 72px 33px 51px 33px;
+  }
   .choose .choose__item--img {
     margin-bottom: 56px;
   }
@@ -1395,6 +1404,9 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .choose .choose__item:last-child {
+    padding: 75px 25px 55px 25px;
+  }
   .choose .choose__item--img {
     margin-bottom: 47px;
   }
@@ -1418,8 +1430,9 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
-  width: 790px;
-  margin-bottom: 67px;
+  right: 0px;
+  width: 700px;
+  margin: 0px 0px 67px 0px;
 }
 
 .works .works-box2::after {
@@ -1427,7 +1440,7 @@ img {
   top: 13px;
   left: 14px;
   content: "";
-  width: 760px;
+  width: 675px;
   height: 1px;
   border: 2px solid #fdd6ba;
 }
@@ -1452,6 +1465,15 @@ img {
   margin-top: 64px;
 }
 
+@media screen and (max-width: 945px) {
+  .works .works-box2 {
+    width: 635px;
+  }
+  .works .works-box2::after {
+    width: 600px;
+  }
+}
+
 .works-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1460,12 +1482,18 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin: -47px;
 }
 
 .works-list .works-list__item {
   width: 285px;
-  margin: 47px;
+}
+
+.works-list .works-list__item {
+  margin-right: 95px;
+}
+
+.works-list .works-list__item:last-child {
+  margin-right: 0;
 }
 
 .works-list .works-list__img {

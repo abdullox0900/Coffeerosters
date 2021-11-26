@@ -10,8 +10,10 @@
         display: flex;
         justify-content: space-between;
         position: relative;
-        width: 790px;
-        margin-bottom: 67px;
+        right: 0px;
+        width: 700px;
+        margin: 0px 0px 67px 0px;
+        // margin-bottom: 67px;
     }
 
     .works-box2::after {
@@ -19,7 +21,7 @@
         top: 13px;
         left: 14px;
         content: "";
-        width: 760px;
+        width: 675px;
         height: 1px;
         border: 2px solid #fdd6ba;
     }
@@ -34,6 +36,7 @@
         background: #fefcf7;
     }
 }
+
 .works {
     padding-bottom: 200px;
 
@@ -41,5 +44,16 @@
         display: inline-block;
         text-decoration: none;
         margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .works {
+        .works-box2 {
+            width: 635px;
+        }
+        .works-box2::after {
+            width: 600px;
+        }
     }
 }
