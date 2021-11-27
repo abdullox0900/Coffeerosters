@@ -15,7 +15,7 @@
         }
 
         .about-box__text {
-            width: 445px;
+            max-width: 445px;
             font-size: 16px;
             line-height: 26px;
         }
@@ -30,5 +30,109 @@
     only screen and (min-resolution: 2dppx) {
     .about-box {
         background-image: url("../../img/about-bgr-img@2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .about {
+        .about-box {
+            padding: 127px 0px 127px 75px;
+        }
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    .about {
+        padding-bottom: 154px;
+        .about-box {
+            padding: 124px 0px 124px 65px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        padding-bottom: 144px;
+        .about-box {
+            padding: 118px 223px 118px 56px;
+            background-image: url("../../img/about-bg-img768.jpg");
+
+            .about-box__title {
+                font-size: 32px;
+                line-height: 40px;
+            }
+
+            .about-box__text {
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .about {
+        padding-bottom: 130px;
+        .about-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 118px 45px 105px 45px;
+
+            .about-box__title {
+                text-align: center;
+            }
+
+            .about-box__text {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .about {
+        .about-box {
+            padding: 115px 35px 95px 35px;
+        }
+    }
+}
+
+@media only screen and (max-width: 368px) {
+    .about {
+        padding-bottom: 120px;
+        .about-box {
+            padding: 111px 24px 87px 24px;
+            background-image: url("../img/about-bg-img-mobile.jpg");
+
+            .about-box__title {
+                font-size: 28px;
+                line-height: 28px;
+            }
+
+            .about-box__text {
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .about {
+        padding-bottom: 110px;
+        .about-box {
+            padding: 105px 20px 75px 20px;
+
+            .about-box__title {
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            .about-box__text {
+                font-size: 14px;
+                line-height: 25px;
+            }
+        }
     }
 }
