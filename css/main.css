@@ -1720,7 +1720,7 @@ img {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .about-box {
-    background-image: url("../../img/about-bgr-img@2x.jpg");
+    background-image: url("../img/about-bgr-img@2x.jpg");
   }
 }
 
@@ -2611,7 +2611,7 @@ img {
 }
 
 .plan .plan__box {
-  padding: 134px 709px 134px 84px;
+  padding: 134px 0px 134px 84px;
   border-radius: 10px;
   background-image: url("../img/Bitmap.jpg");
   background-repeat: no-repeat;
@@ -2627,7 +2627,7 @@ img {
 }
 
 .plan .plan__text {
-  width: 445px;
+  max-width: 445px;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
@@ -2636,6 +2636,129 @@ img {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .plan__box {
     background-image: url("../img/Bitmap@2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .plan .plan__box {
+    padding: 130px 200px 130px 70px;
+  }
+}
+
+@media only screen and (max-width: 825px) {
+  .plan .plan__box {
+    padding: 130px 200px 130px 68px;
+  }
+  .plan .plan__header {
+    margin: 0;
+    margin-bottom: 28px;
+    font-size: 58px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .plan .plan__box {
+    padding: 126px 130px 127px 56px;
+    background-image: url("../img/create-img-tablet.jpg");
+    background-size: cover;
+  }
+  .plan .plan__header {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .plan .plan__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 695px) {
+  .plan .plan__box {
+    text-align: center;
+    padding: 120px 70px 130px 70px;
+  }
+  .plan .plan__text {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .plan .plan__box {
+    padding: 112px 40px 130px 40px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .plan .plan__box {
+    padding: 110px 35px 132px 35px;
+  }
+  .plan .plan__header {
+    margin-bottom: 24px;
+    font-size: 44px;
+    line-height: 44px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .plan .plan__box {
+    padding: 105px 28px 136px 28px;
+  }
+  .plan .plan__header {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 42px;
+    line-height: 42px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .plan .plan__box {
+    padding: 101px 24px 136px 24px;
+  }
+  .plan .plan__header {
+    margin-bottom: 22px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .plan .plan__box {
+    padding: 101px 24px 136px 24px;
+    background-image: url("../img/create-img-mobile.jpg");
+  }
+  .plan .plan__text {
+    max-width: 279px;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .plan .plan__box {
+    padding: 100px 22px 144px 22px;
+  }
+  .plan .plan__header {
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .plan .plan__text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 318px) {
+  .plan .plan__box {
+    padding: 90px 18px 150px 18px;
+  }
+  .plan .plan__header {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .plan .plan__text {
+    font-size: 13px;
   }
 }
 
