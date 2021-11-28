@@ -2073,6 +2073,9 @@ img {
 }
 
 @media only screen and (max-width: 915px) {
+  .unco {
+    padding-bottom: 158px;
+  }
   .unco .unco-wrap {
     padding: 250px 100px 90px 100px;
   }
@@ -2134,6 +2137,9 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+  .unco {
+    padding-bottom: 144px;
+  }
   .unco .unco-wrap {
     padding: 224px 74px 67px 74px;
   }
@@ -2421,43 +2427,183 @@ img {
   padding-bottom: 168px;
 }
 
-.head .head-box .head-box__header {
+.head .head-box__header {
   margin-bottom: 72px;
   font-size: 24px;
   line-height: 32px;
   color: #83888f;
 }
 
-.head .head-box .head-box__list {
+.head .head-box__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: -47px;
   padding: 0;
   list-style: none;
 }
 
-.head .head-box .head-box__item {
+.head .head-box__item {
   width: 285px;
-  margin: 47px;
+  margin-left: 95px;
 }
 
-.head .head-box .head-box__img {
+.head .head-box__item:nth-child(1) {
+  margin-left: 0;
+}
+
+.head .head-box__img {
   margin-bottom: 45px;
 }
 
-.head .head-box .head-box-item__header {
+.head .head-img--active {
+  margin-bottom: 50px;
+}
+
+.head .head-box-item__header {
   margin-bottom: 24px;
   font-size: 32px;
   line-height: 36px;
   color: #333d4b;
 }
 
-.head .head-box .head-box-item__text {
+.head .head-box-item__text {
   margin-bottom: 5px;
   font-size: 16px;
   line-height: 26px;
   color: #333d4b;
+}
+
+@media only screen and (max-width: 1045px) {
+  .head .head-box__item {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .head .head-box__item {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 935px) {
+  .head {
+    padding-bottom: 158px;
+  }
+  .head .head-box__item {
+    margin-left: 38px;
+  }
+  .head .head-box-item__header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .head .head-box-item__text {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 829px) {
+  .head .head-box__item {
+    margin-left: 25px;
+  }
+  .head .head-box-item__header {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .head {
+    padding-bottom: 144px;
+  }
+  .head .head-box__item {
+    margin-left: 9px;
+  }
+  .head .head-box-item__header {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .head .head-box-item__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .head .head-box__header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .head .head-box__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  .head .head-box__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .head {
+    padding-bottom: 130px;
+  }
+  .head .head-box__header {
+    margin-bottom: 70px;
+  }
+  .head .head-box__item {
+    margin-bottom: 70px;
+  }
+  .head .head-box-item__header {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .head {
+    padding-bottom: 120px;
+  }
+  .head .head-box__header {
+    margin-bottom: 80px;
+  }
+  .head .head-box__item {
+    margin-bottom: 80px;
+  }
+  .head .head-box-item__header {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 318px) {
+  .head .head-box__header {
+    margin-bottom: 90px;
+  }
+  .head .head-box__item {
+    margin-bottom: 90px;
+  }
+  .head .head-box-item__header {
+    font-size: 20px;
+  }
+  .head .head-box-item__text {
+    font-size: 14px;
+  }
 }
 
 .plan {

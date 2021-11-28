@@ -1,41 +1,192 @@
 .head {
     padding-bottom: 168px;
-    .head-box {
-        .head-box__header {
-            margin-bottom: 72px;
-            font-size: 24px;
-            line-height: 32px;
-            color: $greys;
-        }
 
-        .head-box__list {
-            display: flex;
-            margin: -47px;
-            padding: 0;
-            list-style: none;
-        }
+    .head-box__header {
+        margin-bottom: 72px;
+        font-size: 24px;
+        line-height: 32px;
+        color: $greys;
+    }
 
+    .head-box__list {
+        display: flex;
+        padding: 0;
+        list-style: none;
+    }
+
+    .head-box__item {
+        width: 285px;
+        margin-left: 95px;
+    }
+
+    .head-box__item:nth-child(1) {
+        margin-left: 0;
+    }
+
+    .head-box__img {
+        margin-bottom: 45px;
+    }
+
+    .head-img--active {
+        margin-bottom: 50px;
+    }
+
+    .head-box-item__header {
+        margin-bottom: 24px;
+        font-size: 32px;
+        line-height: 36px;
+        color: $darkgre;
+    }
+
+    .head-box-item__text {
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 26px;
+        color: $darkgre;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .head {
         .head-box__item {
-            width: 285px;
-            margin: 47px;
+            margin-left: 60px;
         }
+    }
+}
 
-        .head-box__img {
-            margin-bottom: 45px;
+@media only screen and (max-width: 970px) {
+    .head {
+        .head-box__item {
+            margin-left: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 935px) {
+    .head {
+        padding-bottom: 158px;
+        .head-box__item {
+            margin-left: 38px;
         }
 
         .head-box-item__header {
-            margin-bottom: 24px;
-            font-size: 32px;
+            font-size: 28px;
             line-height: 36px;
-            color: $darkgre;
         }
 
         .head-box-item__text {
-            margin-bottom: 5px;
+            font-size: 15px;
+            line-height: 26px;
+        }
+    }
+}
+
+@media only screen and (max-width: 829px) {
+    .head {
+        .head-box__item {
+            margin-left: 25px;
+        }
+
+        .head-box-item__header {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .head {
+        padding-bottom: 144px;
+        .head-box__item {
+            margin-left: 9px;
+        }
+
+        .head-box-item__header {
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        .head-box-item__text {
             font-size: 16px;
             line-height: 26px;
-            color: $darkgre;
+        }
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .head {
+        .head-box__header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .head-box__list {
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+
+        .head-box__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    .head {
+        padding-bottom: 130px;
+        .head-box__header {
+            margin-bottom: 70px;
+        }
+
+        .head-box__item {
+            margin-bottom: 70px;
+        }
+
+        .head-box-item__header {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .head {
+        padding-bottom: 120px;
+        .head-box__header {
+            margin-bottom: 80px;
+        }
+
+        .head-box__item {
+            margin-bottom: 80px;
+        }
+
+        .head-box-item__header {
+            font-size: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width: 318px) {
+    .head {
+        .head-box__header {
+            margin-bottom: 90px;
+        }
+
+        .head-box__item {
+            margin-bottom: 90px;
+        }
+
+        .head-box-item__header {
+            font-size: 20px;
+        }
+
+        .head-box-item__text {
+            font-size: 14px;
         }
     }
 }
