@@ -742,7 +742,7 @@ img {
 @media screen and (max-width: 768px) {
   .gret-hero .gret-hero__box {
     padding: 104px 232px 103px 58px;
-    background-image: url("../../img/bitmap678px.jpg");
+    background-image: url("../img/bitmap678px.jpg");
     -o-object-fit: none;
        object-fit: none;
     background-size: cover;
