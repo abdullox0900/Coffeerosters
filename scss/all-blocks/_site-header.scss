@@ -99,10 +99,10 @@
         padding: 40px 83px 377px 83px;
         padding-bottom: 377px;
         position: absolute;
-        top: 99%;
+        top: 69%;
         left: 0px;
-        transform: matrix(1, 0, 0, 1, 0, 0);
-        background: linear-gradient(180deg, #fefcf7 54.8% 0%, rgba(254, 252, 247, 0.504981));
+        transform: matrix(1, 0, 0, 1, 1, 1);
+        background: linear-gradient(180deg, #fefcf7 50.8% 1%, rgba(254, 252, 247, 0.5));
     }
 
     .header--open .header__list {
@@ -112,13 +112,13 @@
     }
 
     .header--open .header__item {
-        margin-bottom: 26px;
+        margin-bottom: 28px;
     }
 
     .header--open .header__link {
-        display: inline-block;
+        // display: inline-block;
         font-family: Fraunces;
-        font-style: normal;
+        // font-style: normal;
         font-weight: 900;
         font-size: 24px;
         text-transform: none;

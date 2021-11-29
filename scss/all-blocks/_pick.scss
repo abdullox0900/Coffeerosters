@@ -1,7 +1,7 @@
 .pick {
     padding-bottom: 168px;
     .pick__box {
-        padding: 100px 0px 99px 85px;
+        padding: 100px 150px 99px 85px;
         border-radius: 10px;
         background-color: $bcgrauns;
     }
@@ -11,30 +11,30 @@
         position: relative;
         margin-bottom: 67px;
         width: 790px;
+    }
 
-        .pick__line::after {
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            content: "";
-            width: 760px;
-            height: 1px;
-            border: 1px solid #fdd6ba;
-        }
+    .pick__line::after {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        content: "";
+        width: 760px;
+        height: 1px;
+        border: 1px solid #fdd6ba;
+    }
 
-        .pick__oval {
-            display: inline-block;
-            width: 31px;
-            height: 31px;
-            border-radius: 50%;
-            border: 2px solid #0e8784;
-            box-sizing: border-box;
-            z-index: 10;
-        }
+    .pick__oval {
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        border: 2px solid #0e8784;
+        box-sizing: border-box;
+        z-index: 10;
+    }
 
-        .pick__oval + .pick__oval {
-            margin-left: 349px;
-        }
+    .pick__oval + .pick__oval {
+        margin-left: 349px;
     }
 
     .pick__list {
@@ -45,7 +45,7 @@
     }
 
     .pick__item {
-        width: 285px;
+        // max-width: 285px;
     }
 
     .pick__item + .pick__item {
@@ -63,5 +63,338 @@
         font-size: 32px;
         line-height: 36px;
         color: $bone;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .pick {
+        .pick__box {
+            padding: 100px 75px 95px 75px;
+        }
+
+        .pick__line::after {
+            width: 670px;
+        }
+
+        .pick__oval + .pick__oval {
+            margin-left: 305px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 65px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .pick {
+        .pick__box {
+            padding: 100px 65px 95px 65px;
+        }
+
+        .pick__line::after {
+            width: 590px;
+        }
+
+        .pick__oval + .pick__oval {
+            margin-left: 265px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 45px;
+        }
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .pick {
+        .pick__box {
+            padding: 105px 55px 95px 55px;
+        }
+
+        .pick__line::after {
+            width: 557px;
+        }
+
+        .pick__oval + .pick__oval {
+            margin-left: 248px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .pick {
+        .pick__box {
+            padding: 105px 40px 95px 40px;
+        }
+
+        .pick__line::after {
+            width: 557px;
+        }
+
+        .pick__oval + .pick__oval {
+            margin-left: 248px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .pick {
+        .pick__box2 {
+            max-width: 700px;
+            margin-bottom: 50px;
+        }
+
+        .pick__box {
+            padding: 95px 40px 80px 40px;
+        }
+
+        .pick__line::after {
+            width: 490px;
+        }
+
+        .pick__oval + .pick__oval {
+            margin-left: 215px;
+        }
+
+        .pick__item {
+            max-width: 225px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 20px;
+        }
+
+        .pick__header {
+            margin-bottom: 38px;
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        .pick__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .pick {
+        .pick__box2 {
+            max-width: 500px;
+            margin-bottom: 46px;
+        }
+
+        .pick__box {
+            padding: 97px 40px 75px 40px;
+        }
+
+        .pick__line::after {
+            width: 450px;
+        }
+
+        .pick__oval + .pick__oval {
+            margin-left: 195px;
+        }
+
+        .pick__item {
+            max-width: 223px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 15px;
+        }
+
+        .pick__header {
+            margin-bottom: 32px;
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        .pick__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pick {
+        .pick__box2 {
+            max-width: 540px;
+            margin-bottom: 42px;
+        }
+
+        .pick__box {
+            padding: 97px 39px 70px 40px;
+        }
+
+        .pick__line::after {
+            width: 420px;
+        }
+
+        .pick__oval + .pick__oval {
+            margin-left: 180px;
+        }
+
+        .pick__item {
+            max-width: 223px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 10px;
+        }
+
+        .pick__header {
+            margin-bottom: 28px;
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .pick {
+        padding-bottom: 144px;
+        .pick__box2 {
+            display: none;
+        }
+
+        .pick__box {
+            padding: 97px 30px 70px 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .pick {
+        .pick__list {
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .pick__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 60px;
+            width: 327px;
+        }
+
+        .pick__item:last-child {
+            margin-bottom: 0px;
+        }
+
+        .pick__item + .pick__item {
+            margin-left: 0px;
+        }
+
+        .pick__header {
+            width: 323px;
+            text-align: center;
+            margin-bottom: 28px;
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        .pick__text {
+            width: 327px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .pick {
+        .container {
+            padding: 0;
+        }
+        .pick__box {
+            padding: 97px 35px 70px 35px;
+        }
+
+        .pick__item:not(last-child) {
+            margin-bottom: 56px;
+        }
+
+        .pick__header {
+            width: 323px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .pick {
+        padding-bottom: 120px;
+        .container {
+            padding: 0;
+        }
+        .pick__box {
+            padding: 97px 25px 70px 25px;
+        }
+
+        .pick__item:not(last-child) {
+            margin-bottom: 56px;
+        }
+
+        .pick__header {
+            width: 327px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .pick {
+        .container {
+            padding: 0;
+        }
+        .pick__box {
+            padding: 97px 20px 70px 20px;
+        }
+
+        .pick__item:not(last-child) {
+            margin-bottom: 45px;
+        }
+
+        .pick__header {
+            width: 300px;
+            font-size: 22px;
+            line-height: 25px;
+        }
+
+        .pick__text {
+            width: 280px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .pick {
+        .pick__header {
+            width: 250px;
+            font-size: 18px;
+        }
+
+        .pick__text {
+            width: 250px;
+            font-size: 12px;
+        }
     }
 }

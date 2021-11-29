@@ -59,6 +59,7 @@
 
 @media only screen and (max-width: 768px) {
     .plan {
+        padding-bottom: 144px;
         .plan__box {
             padding: 126px 130px 127px 56px;
             background-image: url("../img/create-img-tablet.jpg");
@@ -145,6 +146,7 @@
 
 @media only screen and (max-width: 375px) {
     .plan {
+        padding-bottom: 120px;
         .plan__box {
             padding: 101px 24px 136px 24px;
             background-image: url("../img/create-img-mobile.jpg");
@@ -158,6 +160,7 @@
 
 @media only screen and (max-width: 355px) {
     .plan {
+        padding-bottom: 110px;
         .plan__box {
             padding: 100px 22px 144px 22px;
         }
