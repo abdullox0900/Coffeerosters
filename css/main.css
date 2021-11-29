@@ -3133,7 +3133,7 @@ img {
 }
 
 .coffee-plan .coffee-plan__left-item {
-  width: 255px;
+  max-width: 255px;
   padding: 24px 0px;
   border-bottom: 1px solid #83888f;
 }
@@ -3181,7 +3181,7 @@ img {
 
 .coffee-plan .coffee-plan__right-form {
   margin-left: 125px;
-  width: 730px;
+  max-width: 730px;
 }
 
 .coffee-plan .coffee-plan__right-list {
@@ -3241,8 +3241,8 @@ img {
   display: inline-block;
   padding: 32px 28px 84px 28px;
   color: #333d4b;
-  width: 228px;
-  height: 250px;
+  max-width: 228px;
+  min-height: 250px;
   background: #f4f1eb;
   border-radius: 8px;
   cursor: pointer;
@@ -3299,6 +3299,150 @@ img {
 
 .coffee-plan__bottom-col {
   color: #0e8784;
+}
+
+@media only screen and (max-width: 1120px) {
+  .coffee-plan .coffee-plan__right-form {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1078px) {
+  .coffee-plan .coffee-plan__right-form {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 1045px) {
+  .coffee-plan .coffee-plan__right-form {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .coffee-plan .coffee-plan__right-form {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 1005px) {
+  .coffee-plan .coffee-plan__box {
+    display: block;
+  }
+  .coffee-plan .coffee-plan__left-list {
+    display: none;
+  }
+  .coffee-plan .coffee-plan__right-form {
+    margin-left: 0px;
+  }
+  .coffee-plan .coffee-plan__right-item {
+    max-width: 730px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .coffee-plan .coffee-plan__right-header {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .coffee-plan .coffee-plan__right-item {
+    max-width: 730px;
+  }
+  .coffee-plan .coffee-plan__right-label + .coffee-plan__right-label {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .coffee-plan .coffee-plan__right-list {
+    padding: 0;
+  }
+  .coffee-plan .coffee-plan__right-header {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .coffee-plan .coffee-plan__right-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .coffee-plan .coffee-plan__right-label + .coffee-plan__right-label {
+    margin-left: 0px;
+    margin-top: 17px;
+  }
+  .coffee-plan .coffe-plan__right-card {
+    width: 100%;
+    max-width: 700px;
+    min-height: 140px;
+    padding: 25px 24px 25px 24px;
+  }
+  .coffee-plan .coffee-plan__right-card--header {
+    margin-bottom: 10px;
+  }
+  .coffee-plan .coffee-plan__right-card--text {
+    max-width: 278px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .coffee-plan .coffee-plan__right-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .coffee-plan .coffee-plan__right-header {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 32px;
+  }
+  .coffee-plan .coffee-plan__right-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .coffee-plan .coffee-plan__right-label + .coffee-plan__right-label {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  .coffee-plan .coffe-plan__right-card {
+    min-height: 140px;
+  }
+  .coffee-plan .coffee-plan__right-card--header {
+    margin-bottom: 10px;
+  }
+  .coffee-plan .coffee-plan__right-card--text {
+    max-width: 278px;
+  }
+  .coffee-plan .coffee-plan__bottom {
+    padding: 32px 25px 32px 25px;
+  }
+  .coffee-plan .coffee-plan__bottom-btn {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .coffee-plan .coffee-plan__right-header {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 32px;
+  }
+  .coffee-plan .coffe-plan__right-card {
+    padding: 25px 15px 25px 15px;
+    min-height: 130px;
+  }
+  .coffee-plan .coffee-plan__right-card--header {
+    margin-bottom: 10px;
+  }
+  .coffee-plan .coffee-plan__right-card--text {
+    max-width: 250px;
+  }
 }
 
 .site-footer {
